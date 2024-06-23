@@ -1,49 +1,63 @@
-DevSecOps integrates security practices into the DevOps process to ensure secure software development. Several tools are widely used in the DevSecOps domain, each addressing different aspects of security throughout the software development lifecycle. Here’s a categorized list of popular DevSecOps tools:
+AWS Tools
+AWS CodePipeline: CI/CD service automating build, test, and deploy phases.
+AWS Secrets Manager: Manages and protects secrets such as API keys and passwords.
+AWS Security Hub: Centralizes security alerts and compliance status across AWS accounts.
+Amazon Inspector: Automated security assessment service for AWS applications.
+AWS Config: Tracks and evaluates AWS resource configurations for compliance.
 
-Static Application Security Testing (SAST)
-SonarQube: An open-source platform that performs continuous inspection of code quality and security vulnerabilities.
-Checkmarx: Offers SAST capabilities for identifying vulnerabilities in source code.
-Fortify Static Code Analyzer: Provides static analysis to identify security issues in source code.
-Dynamic Application Security Testing (DAST)
-OWASP ZAP (Zed Attack Proxy): An open-source tool for finding vulnerabilities in web applications.
-Burp Suite: A popular platform for performing security testing of web applications.
-Acunetix: Automated web application security testing tool.
-Software Composition Analysis (SCA)
-Dependabot: Automatically checks for and updates dependencies with known vulnerabilities.
-Snyk: Scans for vulnerabilities in open-source dependencies and container images.
+Azure Tools
+Azure DevOps: Comprehensive CI/CD and agile planning service for development teams.
+Azure Security Center: Unified security management and advanced threat protection for cloud workloads.
+Azure Key Vault: Securely stores and manages secrets, keys, and certificates.
+Azure Policy: Enforces organizational policies to ensure resource compliance.
+Microsoft Defender for Cloud: Threat protection across Azure and hybrid environments.
+
+Third-Party Tools
+Code Quality and Security Analysis
+
+SonarQube: Continuous code quality and security analysis tool.
+Checkmarx: Static Application Security Testing (SAST) tool for identifying code vulnerabilities.
+Dependency and Container Security
+
+Snyk: Finds and fixes vulnerabilities in dependencies and container images.
 Black Duck: Identifies open-source vulnerabilities and compliance issues.
+Infrastructure as Code
+
+Terraform (by HashiCorp): Infrastructure as Code tool for managing cloud resources.
+Ansible: Automates configuration management, application deployment, and task automation.
+Secret Management
+
+HashiCorp Vault: Secures, stores, and tightly controls access to secrets and sensitive data.
+Web Application Security Testing
+
+OWASP ZAP (Zed Attack Proxy): Open-source web application security scanner.
+Burp Suite: Web application security testing tool.
+Vulnerability Scanning
+
+Nessus: Vulnerability scanning tool for identifying security issues.
+OpenVAS: Open-source vulnerability scanner for network and application security.
+Monitoring and Logging
+
+Prometheus & Grafana: Monitoring and alerting toolkit with customizable dashboards.
+ELK Stack (Elasticsearch, Logstash, Kibana): Centralized logging and real-time data visualization tools.
+Splunk: Provides powerful log analysis and SIEM capabilities.
 Container Security
+
 Aqua Security: Provides security for containerized applications, including image scanning and runtime protection.
 Twistlock: (Now part of Palo Alto Networks) Offers container and cloud-native security.
 Clair: An open-source project for the static analysis of vulnerabilities in application containers.
-Infrastructure as Code (IaC) Security
-Terraform: With modules for security compliance, Terraform can be used to manage IaC securely.
-Ansible: Offers security hardening modules and roles to ensure secure configuration management.
-OpenSCAP: Provides automated compliance checking using the Security Content Automation Protocol (SCAP).
-Continuous Integration/Continuous Deployment (CI/CD) Security
-Jenkins: With various security plugins, Jenkins can integrate security checks in CI/CD pipelines.
-GitLab CI: Includes built-in security features and integrations for security testing.
-CircleCI: Offers security-oriented integrations and orbs to automate security testing.
-Secret Management
-HashiCorp Vault: Manages secrets and protects sensitive data.
-AWS Secrets Manager: Helps manage secrets for AWS services.
-Kubernetes Secrets: For managing sensitive information in Kubernetes clusters.
-Runtime Application Self-Protection (RASP)
-Contrast Security: Embeds security controls within applications to detect and prevent attacks in real-time.
-Imperva RASP: Provides runtime protection by monitoring and blocking threats.
-Cloud Security
-AWS Security Hub: Centralizes security alerts and compliance status.
-Microsoft Azure Security Center: Provides unified security management and advanced threat protection across hybrid cloud workloads.
-Google Cloud Security Command Center: Helps identify and mitigate threats in Google Cloud environments.
-Logging and Monitoring
-ELK Stack (Elasticsearch, Logstash, Kibana): For centralized logging and real-time monitoring.
-Splunk: Provides powerful log analysis and security information and event management (SIEM) capabilities.
-Prometheus & Grafana: For monitoring and alerting with customizable dashboards.
-Vulnerability Management
-Nessus: Offers vulnerability scanning and management.
-Qualys: Provides cloud-based security and compliance solutions, including vulnerability management.
-OpenVAS: An open-source vulnerability scanner.
-Security Information and Event Management (SIEM)
-Splunk Enterprise Security: Offers advanced SIEM capabilities for threat detection and incident response.
-QRadar: IBM’s SIEM solution for threat intelligence and monitoring.
-AlienVault (now part of AT&T Cybersecurity): Unified security management and SIEM.
+Regression Testing
+
+Selenium: Automates browsers for testing web applications.
+JUnit: A widely used testing framework for Java programming.
+TestNG: A testing framework inspired by JUnit, designed for testing in Java.
+Penetration Testing
+
+Metasploit: A penetration testing framework for finding and exploiting vulnerabilities.
+Kali Linux: A Linux distribution with numerous tools for penetration testing and security research.
+Kubernetes Tools
+
+Kubernetes: An open-source system for automating deployment, scaling, and operations of application containers.
+Helm: Package manager for Kubernetes applications, simplifies deployment and management.
+Kube-bench: Checks Kubernetes clusters against common security best practices (CIS benchmarks).
+Kubernetes Dashboard: A web-based Kubernetes user interface.
