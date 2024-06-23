@@ -1,0 +1,49 @@
+DevSecOps integrates security practices into the DevOps process to ensure secure software development. Several tools are widely used in the DevSecOps domain, each addressing different aspects of security throughout the software development lifecycle. Here’s a categorized list of popular DevSecOps tools:
+
+Static Application Security Testing (SAST)
+SonarQube: An open-source platform that performs continuous inspection of code quality and security vulnerabilities.
+Checkmarx: Offers SAST capabilities for identifying vulnerabilities in source code.
+Fortify Static Code Analyzer: Provides static analysis to identify security issues in source code.
+Dynamic Application Security Testing (DAST)
+OWASP ZAP (Zed Attack Proxy): An open-source tool for finding vulnerabilities in web applications.
+Burp Suite: A popular platform for performing security testing of web applications.
+Acunetix: Automated web application security testing tool.
+Software Composition Analysis (SCA)
+Dependabot: Automatically checks for and updates dependencies with known vulnerabilities.
+Snyk: Scans for vulnerabilities in open-source dependencies and container images.
+Black Duck: Identifies open-source vulnerabilities and compliance issues.
+Container Security
+Aqua Security: Provides security for containerized applications, including image scanning and runtime protection.
+Twistlock: (Now part of Palo Alto Networks) Offers container and cloud-native security.
+Clair: An open-source project for the static analysis of vulnerabilities in application containers.
+Infrastructure as Code (IaC) Security
+Terraform: With modules for security compliance, Terraform can be used to manage IaC securely.
+Ansible: Offers security hardening modules and roles to ensure secure configuration management.
+OpenSCAP: Provides automated compliance checking using the Security Content Automation Protocol (SCAP).
+Continuous Integration/Continuous Deployment (CI/CD) Security
+Jenkins: With various security plugins, Jenkins can integrate security checks in CI/CD pipelines.
+GitLab CI: Includes built-in security features and integrations for security testing.
+CircleCI: Offers security-oriented integrations and orbs to automate security testing.
+Secret Management
+HashiCorp Vault: Manages secrets and protects sensitive data.
+AWS Secrets Manager: Helps manage secrets for AWS services.
+Kubernetes Secrets: For managing sensitive information in Kubernetes clusters.
+Runtime Application Self-Protection (RASP)
+Contrast Security: Embeds security controls within applications to detect and prevent attacks in real-time.
+Imperva RASP: Provides runtime protection by monitoring and blocking threats.
+Cloud Security
+AWS Security Hub: Centralizes security alerts and compliance status.
+Microsoft Azure Security Center: Provides unified security management and advanced threat protection across hybrid cloud workloads.
+Google Cloud Security Command Center: Helps identify and mitigate threats in Google Cloud environments.
+Logging and Monitoring
+ELK Stack (Elasticsearch, Logstash, Kibana): For centralized logging and real-time monitoring.
+Splunk: Provides powerful log analysis and security information and event management (SIEM) capabilities.
+Prometheus & Grafana: For monitoring and alerting with customizable dashboards.
+Vulnerability Management
+Nessus: Offers vulnerability scanning and management.
+Qualys: Provides cloud-based security and compliance solutions, including vulnerability management.
+OpenVAS: An open-source vulnerability scanner.
+Security Information and Event Management (SIEM)
+Splunk Enterprise Security: Offers advanced SIEM capabilities for threat detection and incident response.
+QRadar: IBM’s SIEM solution for threat intelligence and monitoring.
+AlienVault (now part of AT&T Cybersecurity): Unified security management and SIEM.
