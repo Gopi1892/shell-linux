@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# URL to be pinged
+URL="https://www.guvi.in"
+
+# Send a request to the URL and get the HTTP status code
+HTTP_STATUS=$(curl -o /dev/null -s -w "%{http_code}\n" "$URL")
+
+# Display the status
+if [ "$HTTP_STATUS" -eq 200 ]; then
+    echo "URL is reachable. Status: $HTTP_STATUS"
+else
+    echo "URL is not reachable. Status: $HTTP_STATUS"
+fi
